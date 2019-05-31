@@ -1,7 +1,6 @@
 class PigLatinizer 
   
-  def initialize(string=nil)
-    piglatinize(string)
+  def initialize
   end
   
   def piglatinize(string)
