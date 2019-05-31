@@ -5,7 +5,7 @@ class PigLatinizer
   end
   
   def piglatinize(string)
-    PigLatinizer.new.piglatinize(string).split(" ").map do |word|
+    string.split(" ").map do |word|
       #binding.pry
       piglatinize_word(word)
     end.join(" ")
